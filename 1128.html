@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>1128 Tea & Cafe</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/1128styles.css">
+    <!-- Link to the CSS file -->
+    
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awesome CDN-->
+</head>
+<body>
+      <!-- Navigation Bar Section-->
+      <section class="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="#"><img src="Images/CCC_FOOD_CORNERS.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="homepage.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="explore.html">EXPLORE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="TEAM.html">ABOUT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+  
+    <div id="calculator" class="floating-calculator">
+      <input type="text" id="display" disabled />
+      <div class="buttons">
+          <button onclick="appendToDisplay('1')">1</button>
+          <button onclick="appendToDisplay('2')">2</button>
+          <button onclick="appendToDisplay('3')">3</button>
+          <button onclick="appendToDisplay('+')">+</button>
+          <button onclick="appendToDisplay('4')">4</button>
+          <button onclick="appendToDisplay('5')">5</button>
+          <button onclick="appendToDisplay('6')">6</button>
+          <button onclick="appendToDisplay('-')">-</button>
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button onclick="appendToDisplay('*')">*</button>
+          <button onclick="appendToDisplay('0')">0</button>
+          <button onclick="calculate()">=</button>
+          <button onclick="clearDisplay()">C</button>
+          <button onclick="appendToDisplay('/')">/</button>
+      </div>
+  </div>
+  
+  <!--SHOP TITLE-->
+    <section>
+        <div class="shoptitle">
+            <h1>1128 Tea & Cafe</h1>
+            <h5>Spend Less, Drink Best!</h5>
+        </div>
+    </section>
+  <!--SHOP TITLE-->
+
+  <!--FIXED BACKGROUND-->
+    <div class="banner">
+  <!--FIXED BACKGROUND-->
+    </div>
+  <!--MENU SECTION-->
+    <section>
+        <div class="menu">
+                <div class="row">
+                    <h1>Menu</h1>
+                      <div class="col-md-6">
+                              <div class="menu-item">
+                                  <div class="menu-list">
+                                      <h3>MILK TEA </h3>
+                                      <p>WINTERMELON</p>
+                                      <p>OKINAWA</p>
+                                      <p>DARK CHOCOLATE</p>
+                                      <p>MATCHA</p>
+                                      <p>RED VELVET</p>
+                                      <p>TARO</p>
+                                      <p>COOKIES & CREAM</p>
+                                      <p>SALTED CARAMEL</p>
+                                      <p>CHOCO STRAWBERRY </p>
+                                  </div>
+                                  <div class="menu-description">
+                                    <div class="menu-price">
+                                      <p>28</p>
+                                      <p>Medium</p>
+                                    </div>
+                                    <br>
+                                    <div class="menu-price">
+                                      <p>38</p>
+                                      <p>Large</p>
+                                    </div>
+                                      <img src="Images/1128/1128milktea.jpg"  alt="Image of Milktea">
+                                  </div>
+                              </div>
+                              <div class="menu-item">
+                                <div class="menu-list">
+                                    <h3>FRAPPE </h3>
+                                    <p>"COFFEE-BASED"</p>
+                                    <p>DARK CARAMEL</p>
+                                    <p>DARK MOCHA</p>
+                                    <p>JAVA CHIP</p>
+                                    <br>
+                                    <p>NON-COFFEE BASED</p>
+                                    <p>MATCHA</p>
+                                    <p>TRIPLE CHOCOLATE</p>
+                                    <p>DARK CHOCO BERRY</p>
+                                    <p>BLUEBERRIES & CREAM</p>
+                                    <p>STRAWBERRIES & CREAM</p>
+                                </div>
+                                <div class="menu-description">
+                                    <div class="menu-price">
+                                      <p>28</p>
+                                      <p>Medium</p>
+                                    </div>
+                                    <br>
+                                    <div class="menu-price">
+                                      <p>38</p>
+                                      <p>Large</p>
+                                    </div>
+                                    <img src="Images/1128/1128frappe.jpg"  alt="Image of Milktea">
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                              <div class="menu-list">
+                                  <h3>COLD BREW </h3>
+                                  <p>ICED AMERICANO</p>
+                                  <p>SPANISH LATTE</p>
+                                  <p>MOCHA LATTE</p>
+                                  <p>CARAMEL MACCHIATO</p>
+                                  <p>ICED CHOCOLATE</p>
+                                  <p>WHITE MOCHA</p>
+                                  <p>FRENCH VANILLA</p>
+                                  <p>SALTED CARAMEL LATTE</p>
+                              </div>
+                              <div class="menu-description">
+                                  <div class="menu-price">
+                                    <p>28</p>
+                                    <p>Medium</p>
+                                  </div>
+                                  <br>
+                                  <div class="menu-price">
+                                    <p>38</p>
+                                    <p>Large</p>
+                                  </div>
+                                  <img src="Images/1128/1128coldbrew.jpg"  alt="Image of Milktea">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                              <div class="menu-item">
+                                <div class="menu-list">
+                                    <h3>CHEESECAKE</h3>
+                                    <p>WINTERMELON</p>
+                                    <p>OKINAWA</p>
+                                    <p>DARK CHOCOLATE</p>
+                                    <p>MATCHA</p>
+                                    <p>RED VELVET</p>
+                                    <p>DOUBLE OREO</p>
+                                    <p>SALTED CARAMEL</p>
+                                    <p>CHOCO STRAWBERRY </p>
+                                </div>
+                                <div class="menu-description">
+                                  <div class="menu-price">
+                                    <p>28</p>
+                                    <p>Medium</p>
+                                  </div>
+                                  <br>
+                                  <div class="menu-price">
+                                    <p>38</p>
+                                    <p>Large</p>
+                                  </div>
+                                    <img src="Images/1128/1128cheesecake.jpg"  alt="Image of Milktea">
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                              <div class="menu-list">
+                                  <h3>FRUIT TEA </h3>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <p>LYCHEE</p>
+                                  <p>STRAWBERRY</p>
+                                  <p>GREEN APPLE</p>
+                                  <p>LEMON</p>
+                                  <p>BLUEBERRY</p>
+                              </div>
+                              <div class="menu-description">
+                                  <div class="menu-price">
+                                    <p>28</p>
+                                    <p>Medium</p>
+                                  </div>
+                                  <br>
+                                  <div class="menu-price">
+                                    <p>38</p>
+                                    <p>Large</p>
+                                  </div>
+                                  <img src="Images/1128/1128fruittea.jpg"  alt="Image of Milktea">
+                              </div>
+                          </div>
+                          <div class="menu-item">
+                            <div class="menu-list">
+                                <h3>HOT BREW </h3>
+                                <p>HOT AMERICANO</p>
+                                <p>SPANISH LATTE</p>
+                                <p>MOCHA LATTE</p>
+                                <p>CARAMEL MACCHIATO</p>
+                                <p>HOT CHOCOLATE</p>
+                                <p>WHITE MOCHA</p>
+                                <p>FRENCH VANILLA</p>
+                                <p>SALTED CARAMEL LATTE</p>
+                            </div>
+                            <div class="menu-description">
+                                <div class="menu-price">
+                                  <p>28</p>
+                                  <p>Medium</p>
+                                </div>
+                                <br>
+                                <div class="menu-price">
+                                  <p>38</p>
+                                  <p>Large</p>
+                                </div>
+                                <img src="Images/1128/1128hotbrew.jpg"  alt="Image of Milktea">
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+<!--MENU SECTION-->
+
+<!--Gallery Section-->
+<section class="gallery">
+  <div class="container text-center">
+    <h1 class="text">Gallery</h1>
+    <div class="row mt-4">
+      <!-- Gallery Item 1 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="gallery-image">
+          <img src="Images/1128/1128galleryimg.jpg" alt="Dish 1" class="img-fluid">
+          <div class="gallery-overlay">
+            <i class="bi bi-plus"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Item 2 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="gallery-image">
+          <img src="Images/1128/1128galleryimg5.jpg" alt="Dish 2" class="img-fluid">
+          <div class="gallery-overlay">
+            <i class="bi bi-plus"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Item 3 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="gallery-image">
+          <img src="Images/1128/1128galleryimg2.jpg" alt="Dish 3" class="img-fluid">
+          <div class="gallery-overlay">
+            <i class="bi bi-plus"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Item 4 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="gallery-image">
+          <img src="Images/1128/1128galleryimg3.jpg" alt="Dish 4" class="img-fluid">
+          <div class="gallery-overlay">
+            <i class="bi bi-plus"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Item 5 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="gallery-image">
+          <img src="Images/1128/1128galleryimg4.jpg" alt="Dish 5" class="img-fluid">
+          <div class="gallery-overlay">
+            <i class="bi bi-plus"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Item 6 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="gallery-image">
+          <img src="Images/1128/1128galleryimg1.jpg" alt="Dish 6" class="img-fluid">
+          <div class="gallery-overlay">
+            <i class="bi bi-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Gallery Section-->
+
+
+<!--Footer Section-->
+    <footer class="footer">
+      <div class="container text-center text-md-start">
+        <div class="row">
+          <!-- Address -->
+          <div class="col-md-4">
+            <h5 class="fw-bold">Address</h5>
+            <p class="mb-1">baretto st barangay 7 calamba city beside CCC near bayan center, Calamba, Laguna</p>
+          </div>
+          <!-- Opening Hours -->
+          <div class="col-md-4">
+            <h5 class="fw-bold">Opening Hours</h5>
+            <p class="mb-1">Mon - Fri: 10am - 8:30pm</p>
+            <p>Sat - Sun: 10am - 8:30pm</p>
+          </div>
+          <!-- Contact Us -->
+          <div class="col-md-4">
+            <h5 class="fw-bold">Contacts</h5>
+            <i class="fa-brands fa-tiktok"> @1128teaandcafecalambamain</i>
+          </div>
+        </div>
+        <!-- Divider -->
+        <div class="divider"></div>
+        <!-- Footer Bottom -->
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <p class="mb-2 mb-md-0">&copy; 2024 CCC Food Corners. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>
