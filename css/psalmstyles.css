@@ -63,7 +63,7 @@ body {
     font-style: normal;
 }
 .banner {
-    background-image: url('/Images/psalm/psalmsbg.jpg');
+    background-image: url('../Images/psalm/psalmsbg.jpg');
     width: 100%;
     height: 80vh; /* Full viewport height */
     background-position: center;

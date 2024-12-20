@@ -110,7 +110,7 @@ button {
 
 /*-----Banner Design------*/
 .banner {
-    background-image: url('/Images/1128/1128background.png');
+    background-image: url('../Images/1128/1128background.png');
     width: 100%;
     height: 80vh; /* Full viewport height */
     background-position: center;
